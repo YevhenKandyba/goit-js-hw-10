@@ -115,3 +115,91 @@
     line-height: 1.5;
     color: #2e2f42;
 }
+
+/* Snackbar */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-delay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.delay-input{
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+
+.delay-input:hover {
+  border: 1px solid #000;
+}
+
+.delay-input:active {
+  border: 1px solid #4e75ff;
+}
+
+.state {
+  border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    margin-bottom: 24px;
+    width: 354px;
+      height: 78px;
+}
+
+.state:hover {
+  border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #000;
+}
+
+.input-state {
+  margin-left: -150px;
+}
+
+.state-label{
+display: flex;
+margin: 24px 48px 8px 48px;
+
+gap: 48px;
+}
+
+.btn-sb {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 384px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+}
+
+.btn-sb:hover {
+  background: #6c8cff;
+}
